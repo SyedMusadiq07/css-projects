@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+#nav {
+  height: 100px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  padding: 0 30px;
+}
+
+#nav h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#nav i {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+#center {
+  width: 100%;
+  padding: 40px 80px;
+}
+
+#center h1 {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 90px;
+}
+
+#center-in {
+  height: 200px;
+  width: 100%;
+  /* background-color: aqua; */
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#center-in p {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+#right {
+  width: 20%;
+}
+
+.elem {
+  /* background-color: yellow; */
+  /* margin: 10px; */
+  padding: 20px 0;
+  border-top: 2.5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.elem a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.elem i {
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 0;
+}
+
+.elem:hover i {
+  opacity: 1;
+}
+
+.elem:hover {
+    background-color: rgb(243,243,243);
+}
+
+.elem:hover {
+    text-decoration: underline;
+}
+
+#bottom {
+    width: 100%;
+    height: 35%;
+    /* background-color: blue; */
+    background-image: url(https://media.istockphoto.com/id/1307378306/photo/two-peas-in-a-fashion-pod.jpg?s=1024x1024&w=is&k=20&c=HQKeSAVBeQ4NtSl-HherTMZCBtM4--K6Wx6aBTvbrZ0=);
+    background-size: cover;
+    background-position: 0 0;
+}
